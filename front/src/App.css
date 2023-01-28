@@ -1,0 +1,45 @@
+.App {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.input-block {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 160px;
+}
+
+.input {
+  height: 3rem;
+  width: 50%;
+  margin-right: 20px;
+  border: 1px solid rgb(168, 168, 168);
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn {
+  flex: 0 1 10%;
+  font-size: 18px;
+  height: 3rem;
+  background-color: rgb(100, 185, 112);
+  border: 1px solid gray;
+  border-radius: 10px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+.result {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.custom {
+  color: red;
+}
